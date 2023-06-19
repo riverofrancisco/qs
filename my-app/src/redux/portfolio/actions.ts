@@ -10,3 +10,12 @@ export const Adder = (amount: number): ThunkAction<
 > => {return (dispatch) => {
     return dispatch(reducer.valueAdder(amount))
 }}
+
+export const ModeSwitcher = (): ThunkAction<
+  void,
+  RootState,
+  unknown,
+  AnyAction
+> => {return (dispatch) => {
+    return dispatch(reducer.changeMode());
+}}

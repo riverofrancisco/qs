@@ -18,7 +18,7 @@ const LandingPage: React.FC = () => {
     dispatch(Adder(1));
   };
   return (
-    <Grid container direction="row" mt={3} bgcolor="#6DBAC6">
+    <Grid container direction="row" mt={3}>
       <Grid
         item
         xs={12}
@@ -51,7 +51,7 @@ const LandingPage: React.FC = () => {
                 textDecoration: "none",
               }}
             >
-              Devs Learning
+              Quica Susmaes
             </Typography>
           </Box>
           <Box>
@@ -86,13 +86,7 @@ const LandingPage: React.FC = () => {
           alignItems="center"
           justifyContent="center"
           sx={{ py: { sx: 0, md: 2 } }}
-        >
-          <img
-            src="https://cdn.dribbble.com/users/638428/screenshots/3641004/code2.gif"
-            alt="gif"
-            width="100%"
-          />
-        </Box>
+        ></Box>
       </Grid>
     </Grid>
   );
